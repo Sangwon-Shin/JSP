@@ -25,8 +25,10 @@ public class FormData02 extends HttpServlet {
 		String phoneNum = request.getParameter("phoneNum1") + "-" 
 							+ request.getParameter("phoneNum2") + "-"
 							+ request.getParameter("phoneNum3");
-		ArrayList<String> job = new ArrayList<String>(Arrays.asList(request.getParameterValues("job")));
-		ArrayList<String> field = new ArrayList<String>(Arrays.asList(request.getParameterValues("field")));
+		ArrayList<String> jobList = new ArrayList<String>(Arrays.asList(request.getParameterValues("job")));
+		ArrayList<String> fieldList = new ArrayList<String>(Arrays.asList(request.getParameterValues("field")));
+		String job = String.join(", ", jobList);
+		String field = String.join(", ", fieldList);
 		
 		request.setAttribute("name", name);
 		request.setAttribute("gender", gender);

@@ -72,6 +72,6 @@ public class ServletLifeCycle extends HttpServlet {
 	 * 소멸시키며 서블릿에 구현되어 있는 destroy() 메서드를 마지막으로 호출한다. 
 	 **/
 	public void destroy() {
-		System.out.println("destory() 메소드 호출됨");		
+		System.out.println("destroy() 메소드 호출됨");		
 	}
 }

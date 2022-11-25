@@ -6,15 +6,32 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script src="js/jquery-3.6.1.min.js"></script>
-<script>
+<script type="text/javascript">
 	$(function() {
 		$('input[type="submit"]').mousedown(function () {
+			var regName = /^[가-힣]{2,8}$/;
+			if(!regName.test($('input[name="name"]').val())){
+				alert("이름은 한글 2~8자로 입력하세요.");
+			}
+			if($('input[name="gender"]:checked').val() == null){
+				alert("성별을 선택하세요.");
+			}
+			
 	        var reg1 = /^\d{3,4}$/;
 			var reg2 = /^\d{4}$/;
 			if(!reg1.test($('input[name="phoneNum2"]').val()) || !reg2.test($('input[name="phoneNum3"]').val())){
 				alert("잘못된 전화번호입니다.");
 			}
+			
+			if($('input[name="job"]:checked').length == 0){
+				alert("하나 이상의 희망 취업 분야를 선택하세요");
+			}
+			
+			if($('option[class="multi"]:selected').length == 0){
+				alert("하나 이상의 관심분야를 선택하세요");
+			}
 		});
+		
 		$(".multi").mousedown(function(){
 			   var $self = $(this);
 			   if ($self.prop("selected"))

@@ -13,20 +13,9 @@
 	성별: ${ gender }<br>
 	연락처: ${ phoneNum }<br>
 	희망 취업 분야:
-	<c:forEach var="i" begin="0" end="${ job.size() }">
-		<c:if test="${ not empty job[i + 1] }">
-			${ job[i] },
-		</c:if>
-		<c:if test="${ empty job[i + 1] }">
-			${ job[i] }
-		</c:if>
-	</c:forEach>
+	${ job }
 	<br>
 	관심분야:
-	<c:forEach var="i" begin="0" end="${ field.size() }">
-		<c:if test="${ not empty field[i + 1] }">${ field[i] },</c:if>
-		<c:if test="${ empty field[i + 1] }">${ field[i] }</c:if>
-	</c:forEach> 
-	
+	${ field }
 </body>
 </html>
