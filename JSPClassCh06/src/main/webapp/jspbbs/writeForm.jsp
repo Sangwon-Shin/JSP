@@ -14,7 +14,7 @@
 			 method="post">
 		<table class="readTable">
 			<tr>
-				<td colspan="4" class="boardTitle"><h2>게시 글쓰기</h2></td>
+				<td colspan="4" class="boardTitle"><h2>게시글 쓰기</h2></td>
 			</tr>
 			<tr>
 				<td colspan="4">&nbsp;</td>

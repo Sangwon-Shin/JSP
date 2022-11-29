@@ -58,26 +58,26 @@ CREATE TABLE gpus(
     rops NUMBER NOT NULL
 );
 
-INSERT INTO gpus VALUES("GeForce RTX 4090", "AD102", "PCIe 4.0 x16", "24 GB", "GDDR6X", "384bit", "2235 MHz", "1313 MHz", 16384, 512, 176);
-INSERT INTO gpus VALUES("GeForce RTX 4080", "AD103", "PCIe 4.0 x16", "16 GB", "GDDR6X", "256bit", "2205 MHz", "1400 MHz", 9728, 304, 112);
-INSERT INTO gpus VALUES("Radeon RX 6950 XT", "Navi 21", "PCIe 4.0 x16", "16 GB", "GDDR6", "256bit", "1860 MHz", "2250 MHz", 5120, 320, 128);
-INSERT INTO gpus VALUES("Radeon RX 6900 XT", "Navi 21", "PCIe 4.0 x16", "16 GB", "GDDR6", "256bit", "1825 MHz", "2000 MHz", 5120, 320, 128);
-INSERT INTO gpus VALUES("GeForce RTX 3090 Ti", "GA102", "PCIe 4.0 x16", "24 GB", "GDDR6X", "384bit", "1560 MHz", "1313 MHz", 10752, 336, 112);
-INSERT INTO gpus VALUES("Radeon RX 6800 XT", "Navi 21", "PCIe 4.0 x16", "16 GB", "GDDR6", "256bit", "1825 MHz", "2000 MHz", 4608, 288, 128);
-INSERT INTO gpus VALUES("GeForce RTX 3090", "GA102", "PCIe 4.0 x16", "24 GB", "GDDR6X", "384bit", "1395 MHz", "1219 MHz", 10496, 328, 112);
-INSERT INTO gpus VALUES("GeForce RTX 3080 12GB", "GA102", "PCIe 4.0 x16", "12 GB", "GDDR6X", "384bit", "1260 MHz", "1188 MHz", 8960, 280, 96);
-INSERT INTO gpus VALUES("GeForce RTX 3080 Ti", "GA102", "PCIe 4.0 x16", "12 GB", "GDDR6X", "384bit", "1365 MHz", "1188 MHz", 10240, 320, 112);
-INSERT INTO gpus VALUES("Radeon RX 6800", "Navi 21", "PCIe 4.0 x16", "16 GB", "GDDR6", "256bit", "1700 MHz", "2000 MHz", 3840, 240, 96);
-INSERT INTO gpus VALUES("GeForce RTX 3080", "GA102", "PCIe 4.0 x16", "10 GB", "GDDR6X", "320bit", "1440 MHz", "1188 MHz", 8704, 272, 96);
-INSERT INTO gpus VALUES("Radeon RX 6750 XT", "Navi 22", "PCIe 4.0 x16", "12 GB", "GDDR6", "192bit", "2150 MHz", "2250 MHz", 2560, 160, 64);
-INSERT INTO gpus VALUES("GeForce RTX 3070 Ti", "GA104", "PCIe 4.0 x16", "8 GB", "GDDR6X", "256bit", "1575 MHz", "1188 MHz", 6144, 192, 96);
-INSERT INTO gpus VALUES("Titan RTX", "TU102", "PCIe 3.0 x16", "24 GB", "GDDR6", "384bit", "1350 MHz", "1750 MHz", 4608, 288, 96);
-INSERT INTO gpus VALUES("Radeon RX 6700 XT", "Navi 22", "PCIe 4.0 x16", "12 GB", "GDDR6", "192bit", "2321 MHz", "2000 MHz", 2560, 160, 64);
-INSERT INTO gpus VALUES("GeForce RTX 3070", "GA104", "PCIe 4.0 x16", "8 GB", "GDDR6", "256bit", "1500 MHz", "1750 MHz", 5888, 184, 96);
-INSERT INTO gpus VALUES("GeForce RTX 2080 Ti", "TU102", "PCIe 3.0 x16", "11 GB", "GDDR6", "352bit", "1350 MHz", "1750 MHz", 4352, 272, 88);
-INSERT INTO gpus VALUES("GeForce RTX 3060 Ti", "GA104", "PCIe 4.0 x16", "8 GB", "GDDR6", "256bit", "1410 MHz", "1750 MHz", 4864, 152, 80);
-INSERT INTO gpus VALUES("Radeon RX 6700 10GB", "Navi 22", "PCIe 4.0 x16", "10 GB", "GDDR6", "160bit", "1941 MHz", "2000 MHz", 2304, 144, 64);
-INSERT INTO gpus VALUES("GeForce RTX 2080 Super", "TU104", "PCIe 3.0 x16", "8 GB", "GDDR6", "256bit", "1650 MHz", "1937 MHz", 3072, 192, 64);
+INSERT INTO gpus VALUES('GeForce RTX 4090', 'AD102', 'PCIe 4.0 x16', '24 GB', 'GDDR6X', '384bit', '2235 MHz', '1313 MHz', 16384, 512, 176);
+INSERT INTO gpus VALUES('GeForce RTX 4080', 'AD103', 'PCIe 4.0 x16', '16 GB', 'GDDR6X', '256bit', '2205 MHz', '1400 MHz', 9728, 304, 112);
+INSERT INTO gpus VALUES('Radeon RX 6950 XT', 'Navi 21', 'PCIe 4.0 x16', '16 GB', 'GDDR6', '256bit', '1860 MHz', '2250 MHz', 5120, 320, 128);
+INSERT INTO gpus VALUES('Radeon RX 6900 XT', 'Navi 21', 'PCIe 4.0 x16', '16 GB', 'GDDR6', '256bit', '1825 MHz', '2000 MHz', 5120, 320, 128);
+INSERT INTO gpus VALUES('GeForce RTX 3090 Ti', 'GA102', 'PCIe 4.0 x16', '24 GB', 'GDDR6X', '384bit', '1560 MHz', '1313 MHz', 10752, 336, 112);
+INSERT INTO gpus VALUES('Radeon RX 6800 XT', 'Navi 21', 'PCIe 4.0 x16', '16 GB', 'GDDR6', '256bit', '1825 MHz', '2000 MHz', 4608, 288, 128);
+INSERT INTO gpus VALUES('GeForce RTX 3090', 'GA102', 'PCIe 4.0 x16', '24 GB', 'GDDR6X', '384bit', '1395 MHz', '1219 MHz', 10496, 328, 112);
+INSERT INTO gpus VALUES('GeForce RTX 3080 12GB', 'GA102', 'PCIe 4.0 x16', '12 GB', 'GDDR6X', '384bit', '1260 MHz', '1188 MHz', 8960, 280, 96);
+INSERT INTO gpus VALUES('GeForce RTX 3080 Ti', 'GA102', 'PCIe 4.0 x16', '12 GB', 'GDDR6X', '384bit', '1365 MHz', '1188 MHz', 10240, 320, 112);
+INSERT INTO gpus VALUES('Radeon RX 6800', 'Navi 21', 'PCIe 4.0 x16', '16 GB', 'GDDR6', '256bit', '1700 MHz', '2000 MHz', 3840, 240, 96);
+INSERT INTO gpus VALUES('GeForce RTX 3080', 'GA102', 'PCIe 4.0 x16', '10 GB', 'GDDR6X', '320bit', '1440 MHz', '1188 MHz', 8704, 272, 96);
+INSERT INTO gpus VALUES('Radeon RX 6750 XT', 'Navi 22', 'PCIe 4.0 x16', '12 GB', 'GDDR6', '192bit', '2150 MHz', '2250 MHz', 2560, 160, 64);
+INSERT INTO gpus VALUES('GeForce RTX 3070 Ti', 'GA104', 'PCIe 4.0 x16', '8 GB', 'GDDR6X', '256bit', '1575 MHz', '1188 MHz', 6144, 192, 96);
+INSERT INTO gpus VALUES('Titan RTX', 'TU102', 'PCIe 3.0 x16', '24 GB', 'GDDR6', '384bit', '1350 MHz', '1750 MHz', 4608, 288, 96);
+INSERT INTO gpus VALUES('Radeon RX 6700 XT', 'Navi 22', 'PCIe 4.0 x16', '12 GB', 'GDDR6', '192bit', '2321 MHz', '2000 MHz', 2560, 160, 64);
+INSERT INTO gpus VALUES('GeForce RTX 3070', 'GA104', 'PCIe 4.0 x16', '8 GB', 'GDDR6', '256bit', '1500 MHz', '1750 MHz', 5888, 184, 96);
+INSERT INTO gpus VALUES('GeForce RTX 2080 Ti', 'TU102', 'PCIe 3.0 x16', '11 GB', 'GDDR6', '352bit', '1350 MHz', '1750 MHz', 4352, 272, 88);
+INSERT INTO gpus VALUES('GeForce RTX 3060 Ti', 'GA104', 'PCIe 4.0 x16', '8 GB', 'GDDR6', '256bit', '1410 MHz', '1750 MHz', 4864, 152, 80);
+INSERT INTO gpus VALUES('Radeon RX 6700 10GB', 'Navi 22', 'PCIe 4.0 x16', '10 GB', 'GDDR6', '160bit', '1941 MHz', '2000 MHz', 2304, 144, 64);
+INSERT INTO gpus VALUES('GeForce RTX 2080 Super', 'TU104', 'PCIe 3.0 x16', '8 GB', 'GDDR6', '256bit', '1650 MHz', '1937 MHz', 3072, 192, 64);
 
 
 
